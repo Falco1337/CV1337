@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import logoKu from 'src/Photo.png';
+import Photo from './Photo.png';
 
 const Navbar = ({ activeSection, setActiveSection }) => {
   const navItems = ['Home', 'About', 'Projects', 'Certificates', 'Contact'];
@@ -10,7 +10,7 @@ const Navbar = ({ activeSection, setActiveSection }) => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <motion.img
-            src={logoKu}
+            src={Photo}
             alt="Logo"
             className="h-8 w-8"
             whileHover={{ scale: 1.1 }}
