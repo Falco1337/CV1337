@@ -37,7 +37,7 @@ const Certificates = () => {
           className="text-center"
         >
           <a
-            href="https://drive.google.com/file/d/14EAk1rB9FyR4PwyiIxb7dy45IOQ2_DWL/view?usp=sharing"
+            href="https://drive.google.com/file/d/1FXZ8TmA6VkFd-3RLey-konpzZK6n1Mox/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full text-white font-medium hover:opacity-90 transition-opacity"
