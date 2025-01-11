@@ -7,6 +7,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Certificates from './components/Certificates';
 import Contact from './components/Contact';
+import dilImage from './dil.jpg';
 
 function App() {
   const [visitorCount, setVisitorCount] = useState(0);
@@ -35,7 +36,7 @@ function App() {
               className="mb-8"
             >
               <img
-                src="src/dil.jpg"
+                src={dilImage}
                 alt="Aidil Hizwan"
                 className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-purple-500 shadow-[0_0_15px_rgba(147,51,234,0.5)]"
               />
