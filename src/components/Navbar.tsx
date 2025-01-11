@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import logoKu from './Photo.png';
+import logoKu from 'src/Photo.png';
 
 const Navbar = ({ activeSection, setActiveSection }) => {
   const navItems = ['Home', 'About', 'Projects', 'Certificates', 'Contact'];
