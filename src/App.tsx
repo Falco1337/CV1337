@@ -42,7 +42,7 @@ function App() {
               />
             </motion.div>
 
-            <div className="text-1xl md:text-3xl font-bold mb-4">
+            <div className="text-3xl md:text-3xl font-bold mb-4">
               <TypeAnimation
                 sequence={[
                   'Hello there!',
