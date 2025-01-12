@@ -14,7 +14,7 @@ function App() {
   const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {
-    // Simulate visitor count (in a real app, this would come from a backend)
+    // Count Visitor
     const count = parseInt(localStorage.getItem('visitorCount') || '0');
     localStorage.setItem('visitorCount', (count + 1).toString());
     setVisitorCount(count + 1);
@@ -80,7 +80,7 @@ function App() {
               transition={{ delay: 0.5 }}
               className="text-xl text-gray-300 mb-8"
             >
-              Cybersecurity Researcher | Blockchain Developer | Backend Programmer | Pentester | Sport Scientist
+              Cybersecurity Researcher | Blockchain Developer | Backend Programmer | Pentester
             </motion.p>
 
             <motion.div
