@@ -1,30 +1,30 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Mail, Instagram, MessageSquare, Phone } from 'lucide-react';
+import { FaGithub, FaTelegram, FaInstagram, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 
 const contacts = [
   {
-    icon: <Github />,
+    icon: <FaGithub />,
     label: 'GitHub',
     href: 'https://github.com/Falco1337',
   },
   {
-    icon: <MessageSquare />,
+    icon: <FaTelegram />,
     label: 'Telegram',
     href: 'https://t.me/Mydiel',
   },
   {
-    icon: <Instagram />,
+    icon: <FaInstagram />,
     label: 'Instagram',
     href: 'https://www.instagram.com/a.xydiel/',
   },
   {
-    icon: <Mail />,
+    icon: <FaEnvelope />,
     label: 'Email',
     href: 'mailto:xxxhtml00@gmail.com',
   },
   {
-    icon: <Phone />,
+    icon: <FaWhatsapp />,
     label: 'WhatsApp',
     href: 'https://wa.me/message/WUVEKGT6NHMHJ1',
   },
