@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
-import { Github, Mail, Instagram, MessageSquare, Download } from 'react-icons/fa';
+import { FaGithub, FaTelegram, FaInstagram, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -81,10 +81,11 @@ function App() {
               transition={{ delay: 0.8 }}
               className="flex justify-center space-x-6"
             >
-              <SocialLink href="https://github.com/Falco1337" icon={<Github />} />
-              <SocialLink href="mailto:xxxhtml00@gmail.com" icon={<Mail />} />
-              <SocialLink href="https://www.instagram.com/a.xydiel/" icon={<Instagram />} />
-              <SocialLink href="https://t.me/Mydiel" icon={<MessageSquare />} />
+              <FaGithub href="https://github.com/Falco1337" icon={<FaGithub />} />
+              <FaEnvelope href="mailto:xxxhtml00@gmail.com" icon={<FaEnvelope />} />
+              <FaInstagram href="https://www.instagram.com/a.xydiel/" icon={<FaInstagram />} />
+              <FaTelegram href="https://t.me/Mydiel" icon={<FaTelegram />} />
+              <FaWhatsapp href="https://wa.me/message/WUVEKGT6NHMHJ1" icon={<FaWhatsapp />} />
             </motion.div>
           </div>
         </section>
