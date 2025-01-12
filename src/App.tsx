@@ -51,7 +51,7 @@ function App() {
                 sequence={[
                   'Hello there!',
                   1000,
-                  'Welcome to my Portfolio!',
+                  'Welcome to My Portfolio!',
                   1000,
                   "I'm Aidil Hizwan",
                   1000,
