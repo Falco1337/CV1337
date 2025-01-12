@@ -42,7 +42,7 @@ function App() {
               />
             </motion.div>
 
-            <div className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r">
+            <div className="text-1xl md:text-3xl font-bold mb-4">
               <TypeAnimation
                 sequence={[
                   'Hello there!',
@@ -60,7 +60,7 @@ function App() {
                 ]}
                 wrapper="span"
                 speed={50}
-                style={{ fontSize: '2em', display: 'inline-block'}}
+                style={{ fontSize: '20px', display: 'inline-block'}}
                 repeat={Infinity}
                 className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text"
               />
