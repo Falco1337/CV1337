@@ -55,16 +55,22 @@ function App() {
                   1000,
                   "I'm Aidil Hizwan",
                   1000,
-                  'UiTM Shah Alam',
+                  'An explorer of knowledge and ideas!',
                   1000,
-                  'Bachelor of Sport Science and Recreation',
+                  'Currently studying at UiTM Shah Alam',
                   1000,
-                  'Terengganu | Johor | Malaysia',
+                  'Proudly pursuing a Bachelor of Sport Science and Recreation',
+                  1000,
+                  'From the beautiful lands of Terengganu and Johor, Malaysia',
+                  1000,
+                  'Curious about my journey? Let me show you around!',
+                  1000,
+                  'Feel free to explore and connect !',
                   1000,
                 ]}
                 wrapper="span"
                 speed={50}
-                style={{ fontSize: '45px', display: 'inline-block'}}
+                style={{ fontSize: '40px', display: 'inline-block'}}
                 repeat={Infinity}
                 className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text"
               />
