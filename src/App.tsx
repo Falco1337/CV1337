@@ -61,7 +61,7 @@ function App() {
                 ]}
                 wrapper="span"
                 speed={50}
-                style={{ fontSize: '2px', display: 'inline-block'}}
+                style={{ fontSize: '100px', display: 'inline-block'}}
                 repeat={Infinity}
                 className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text"
               />
