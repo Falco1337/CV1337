@@ -4,6 +4,8 @@ import { FaPython, FaPhp } from 'react-icons/fa';
 import { SiGnubash } from "react-icons/si";
 import { BsFiletypeSql } from "react-icons/bs";
 import { DiRuby } from "react-icons/di";
+import { SiSolidity } from "react-icons/si";
+
 
 const About = () => {
   return (
@@ -54,6 +56,10 @@ const proficiencies = [
     icon: <DiRuby />,
     label: 'Ruby',
   },
+  {
+    icon: <SiSolidity />,
+    label: 'Solidity',
+  }
 ];
 
 const Proficiencies = () => {
