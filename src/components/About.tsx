@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaPython, FaPhp, FaHtml5, FaReact } from 'react-icons/fa';
+import { FaPython, FaPhp, FaReact } from 'react-icons/fa';
 import { SiGnubash } from "react-icons/si";
 import { BsFiletypeSql } from "react-icons/bs";
 import { DiRuby } from "react-icons/di";
@@ -69,10 +69,6 @@ const proficiencies = [
   {
     icon: <SiJavascript />,
     label: 'Javascript',
-  },
-  {
-    icon: <FaHtml5 />,
-    label: 'HTML',
   },
   {
     icon: <FaReact />,
