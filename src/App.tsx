@@ -57,7 +57,7 @@ function App() {
                   1000,
                   'Currently studying at UiTM Shah Alam',
                   1000,
-                  'Proudly pursuing a Bachelor of Sport Science and Recreation',
+                  'Studying a Bachelor of Sport Science and Recreation',
                   1000,
                   'Malaysia:Terengganu,Johor',
                   1000,
