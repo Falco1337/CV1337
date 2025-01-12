@@ -1,10 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaPython, FaPhp } from 'react-icons/fa';
+import { FaPython, FaPhp, FaHtml5, FaReact } from 'react-icons/fa';
 import { SiGnubash } from "react-icons/si";
 import { BsFiletypeSql } from "react-icons/bs";
 import { DiRuby } from "react-icons/di";
 import { SiSolidity } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
 
 
 const About = () => {
@@ -59,6 +61,22 @@ const proficiencies = [
   {
     icon: <SiSolidity />,
     label: 'Solidity',
+  },
+  {
+    icon: <SiTypescript />,
+    label: 'Typescript',
+  },
+  {
+    icon: <SiJavascript />,
+    label: 'Javascript',
+  },
+  {
+    icon: <FaHtml5 />,
+    label: 'HTML',
+  },
+  {
+    icon: <FaReact />,
+    label: 'React',
   }
 ];
 
