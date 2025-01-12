@@ -1,6 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaPython, FaPhp, SiGnubash, BsFiletypeSql, DiRuby, } from 'react-icons/fa';
+import { FaPython, FaPhp } from 'react-icons/fa';
+import { SiGnubash } from "react-icons/si";
+import { BsFiletypeSql } from "react-icons/bs";
+import { DiRuby } from "react-icons/di";
+
 
 const About = () => {
   return (
