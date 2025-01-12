@@ -39,6 +39,7 @@ function App() {
                 src={dilImage}
                 alt="Aidil Hizwan"
                 className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-purple-500 shadow-[0_0_15px_rgba(147,51,234,0.5)]"
+                onContextMenu={(e) => e.preventDefault()}
               />
             </motion.div>
 
@@ -60,7 +61,7 @@ function App() {
                 ]}
                 wrapper="span"
                 speed={50}
-                style={{ fontSize: '1em', display: 'inline-block'}}
+                style={{ fontSize: '2px', display: 'inline-block'}}
                 repeat={Infinity}
                 className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text"
               />
