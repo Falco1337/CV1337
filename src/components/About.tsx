@@ -5,7 +5,6 @@ import { SiGnubash } from "react-icons/si";
 import { BsFiletypeSql } from "react-icons/bs";
 import { DiRuby } from "react-icons/di";
 
-
 const About = () => {
   return (
     <section id="about" className="min-h-screen flex items-center justify-center py-20">
@@ -24,11 +23,13 @@ const About = () => {
           As a sport scientist, I bring a unique perspective by merging technology with human performance.
         </p>
       </motion.div>
+      {/* Render the Proficiencies component here */}
+      <Proficiencies />
     </section>
   );
 };
 
-const proficienciess = [
+const proficiencies = [
   {
     icon: <FaPython />,
     label: 'Python',
@@ -60,10 +61,10 @@ const Proficiencies = () => {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {Proficienciess.map((proficiencies, index) => (
+          {proficiencies.map((proficiency, index) => (
             <motion.a
               key={index}
-              href={proficiencies.href}
+              href={proficiency.href}
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}
@@ -72,8 +73,8 @@ const Proficiencies = () => {
               whileHover={{ scale: 1.05 }}
               className="flex flex-col items-center gap-4 p-6 bg-black/50 backdrop-blur-sm rounded-lg border border-gray-800 hover:border-purple-500 transition-colors"
             >
-              <div className="text-purple-500">{proficiencies.icon}</div>
-              <span className="text-gray-300">{proficiencies.label}</span>
+              <div className="text-purple-500">{proficiency.icon}</div>
+              <span className="text-gray-300">{proficiency.label}</span>
             </motion.a>
           ))}
         </div>
