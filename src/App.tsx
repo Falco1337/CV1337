@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
-import { Github, Mail, Instagram, MessageSquare, Download } from 'lucide-react';
+import { Github, Mail, Instagram, MessageSquare, Download } from 'react-icons/fa';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -60,6 +60,7 @@ function App() {
                 ]}
                 wrapper="span"
                 speed={50}
+                style={{ fontSize: '2em', display: 'inline-block'}}
                 repeat={Infinity}
                 className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text"
               />
