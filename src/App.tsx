@@ -59,7 +59,7 @@ function App() {
                   1000,
                   'Studying a Bachelor of Sport Science and Recreation',
                   1000,
-                  'Malaysia:Terengganu,Johor',
+                  'Malaysia: Terengganu, Johor',
                   1000,
                   'Curious about my journey?',
                   1000,
