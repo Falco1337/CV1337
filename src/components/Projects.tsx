@@ -26,6 +26,11 @@ const projects = [
     title: 'Web Development, SOC Analyst and Administrator System',
     description: 'Jabatan Pendidikan Negeri Terengganu',
     gradient: 'from-blue-500 to-purple-500'
+  },
+  {
+    title: 'Digital Forensic Investigation',
+    description: 'University College Sedaya International & Universiti Kebangsaan Malaysia',
+    gradient: 'from-blue-500 to-purple-500'
   }
 ];
 
