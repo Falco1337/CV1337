@@ -22,6 +22,11 @@ const projects = [
     description: 'UiTM Hackathon',
     gradient: 'from-blue-500 to-purple-500',
   },
+  {
+    title: 'Web Development, SOC Analyst and Administrator System',
+    description: 'Jabatan Pendidikan Negeri Terengganu',
+    gradient: 'from-blue-500 to-purple-500'
+  }
 ];
 
 const Projects = () => {
